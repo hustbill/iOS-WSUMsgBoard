@@ -1,4 +1,4 @@
- This is the third project in Mobile development course. 
+ This is the third project in Mobile development. 
 Start at March 30, 2014
 ----------------------------
 
