@@ -16,7 +16,7 @@
 #import "UIAlertView+AFNetworking.h"
 #import "AFHTTPSessionManager.h"
 
-#define BaseURLString @"https://bend.encs.vancouver.wsu.edu/~wcochran/cgi-bin"
+#define BaseURLString @"http://wsu.twitter.com/cgi-bin"
 
 @interface TwitterMasterViewController () <AddTweetDelegate>
 -(void)addTweet:(id)sender;

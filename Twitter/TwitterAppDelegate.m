@@ -15,7 +15,7 @@
 #import "AFHTTPSessionManager.h"
 #import "AFNetworking.h"
 
-#define BaseURLString @"https://bend.encs.vancouver.wsu.edu/~wcochran/cgi-bin"
+#define BaseURLString @"http://wsu.twitter.com/cgi-bin"
 
 #define kTweetsKey @"tweets"
 
