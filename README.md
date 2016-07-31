@@ -33,8 +33,9 @@ Table 1: Tweet object fields.
 The tweets are stored remotely on the server, but are cached in a local array. The application delegate
 is a convenient place to store the tweets since it persists for the lifetime of the app, is easily accessible by all
 view controllers, and already has the hooks in place for loading and storing the tweets in the app’s sandbox
-when the app launches and enters the background state. The example method below (from my main table
-view controller) demonstrates the pattern for accessing the app delegate and the cached tweets:  
+when the app launches and enters the background state.   
+
+The example method below (from my main tableview controller) demonstrates the pattern for accessing the app delegate and the cached tweets:  
 
 ```code
 override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
