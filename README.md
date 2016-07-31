@@ -2,7 +2,7 @@
 Start at March 30, 2014  
 
 For this project we will create a client iOS application for a Twitter-like service.   
-User information and messages are stored on a server and are accessible via a web-based API using HTTP GET/POST methods.   We will use the delightful Alamofire framework to communicate with the server.   
+User information and messages are stored on a server and are accessible via a web-based API using HTTP GET/POST methods.   We will use the delightful AFNetworking framework to communicate with the server.   
 
 ## Features:
 Our application will allow the user to :  
