@@ -16,4 +16,4 @@ The project covers a variety of topics:
 • UI controllers and views,  
 • keyboard input and user interaction,  
 • data persistence including using the iOS Keychain for secure storage of user information, and  
-• HTTP GET/POST communication with a RESTful API via Alamofire.  
+• HTTP GET/POST communication with a RESTful API via AFNetworking.  
