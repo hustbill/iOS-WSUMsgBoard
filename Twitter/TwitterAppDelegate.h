@@ -18,6 +18,7 @@
 @property (strong, nonatomic)NSString *password;
 @property (strong, nonatomic)NSString *tweet;
 @property (strong, nonatomic)NSString *session_token;
+@property (copy, nonatomic) NSString *refreshDateString;
 @property NSInteger *tweet_id;
 
 
