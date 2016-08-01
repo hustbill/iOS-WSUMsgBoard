@@ -96,7 +96,6 @@
     return tweetsCount;
 }
 
-/*From Dr.Cochran 's instruction */
 -(NSAttributedString *) tweetAttributedStringFromTweet:(Tweet*)tweet {
     if(tweet.tweetAttributedString ==nil    ){
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
@@ -133,7 +132,7 @@
     return tweet.tweetAttributedString;
 }
 
-/* The method from Dr.Cochran's instrcution. */
+
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     TwitterAppDelegate *addDelegate  =  [[UIApplication sharedApplication] delegate];
     
